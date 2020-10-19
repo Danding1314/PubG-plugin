@@ -4,7 +4,7 @@
 
 declare(strict_types=1);
 
-namespace ShadowMiner\pubg\arena;
+namespace shadowminer\pubg\arena;
 
 use pocketmine\block\Block;
 use pocketmine\entity\Attribute;
@@ -30,7 +30,7 @@ use ShadowMiner\pubg\PubG;
 
 /**
  * Class Arena
- * @package skywars\arena
+ * @package pubg\arena
  */
 class Arena implements Listener {
 
