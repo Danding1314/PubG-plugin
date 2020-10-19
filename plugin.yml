@@ -1,0 +1,29 @@
+---
+name: PubG
+api:
+- 3.0.0
+version: 1.2.1
+main: ShadowMiner\pubg\PubG
+author: ShadowMiner
+description: SkyWars minigame plugin
+permissions:
+  pg.cmd:
+    description: Permission to all PubG commands
+    default: op
+    children:
+      pg.cmd.help:
+        description: Permission for /pg help
+        default: op
+      pg.cmd.create:
+        description: Permission for /pg create
+        default: op
+      pg.cmd.remove:
+        description: Permission for /pg remove
+        default: op
+      pg.cmd.set:
+        description: Permission for /pg set
+        default: op
+      pg.cmd.arenas:
+        description: Permission for /pg arenas
+        default: op
+...
